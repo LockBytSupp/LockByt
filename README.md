@@ -22,7 +22,6 @@ Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) 
 - **UAC Bypass** (fodhelper,cmstp,computerdefaults)
 - **Clear Logs**
 - **Defender Killer** (only for Windows Defender, Requires Administrator privileges)
-- **Steal Files** (4GB Limit)
 - **Wallpaper** (Dynamic,1:1 of LB3's Wallpaper)
 - **Encrypt Network**
 - **Encrypt Local Disks**
