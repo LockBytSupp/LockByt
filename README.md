@@ -38,19 +38,31 @@ Format: action:target
 
 Actions (comma separated, no spaces):
 
-kill:name           Kill process by name
-killtree:name       Kill process and children
-killpid:pid         Kill process by PID
-service:name        Stop Windows service
-disableservice:name Disable Windows service
-deleteservice:name  Delete Windows service
-uninstall:name      Uninstall application
-delete:path         Delete file
-rmdir:path          Delete directory
-regdelete:key       Delete registry key
-regdelval:key:value Delete registry value
-block:domain        Block domain in hosts file
-killwdprocesses     Kill Windows Defender
+- kill:name           Kill process by name
+
+- killtree:name       Kill process and children
+
+- killpid:pid         Kill process by PID
+
+- service:name        Stop Windows service
+
+- disableservice:name Disable Windows service
+
+- deleteservice:name  Delete Windows service
+
+- uninstall:name      Uninstall application
+
+- delete:path         Delete file
+
+- rmdir:path          Delete directory
+
+- regdelete:key       Delete registry key
+
+- regdelval:key:value Delete registry value
+
+- block:domain        Block domain in hosts file
+
+- killwdprocesses     Kill Windows Defender Processes
 
 Example:
 kill:notepad,killtree:chrome,block:https://virustotal.com,killwdprocesses
