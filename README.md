@@ -70,7 +70,7 @@ kill:notepad,killtree:chrome,block:https://virustotal.com,killwdprocesses
 ## Security
 - Random IV Per File
 - RNG for Key & IV generation's
-- XChaCha IV 24-Bytes (192-Bits)
+- XChaCha/XSalsa IV 24-Bytes (192-Bits)
 
 ## Summary
 Fast And Secure,
