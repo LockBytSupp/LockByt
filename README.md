@@ -5,7 +5,7 @@ LockByt Ransomware Builder
 
 ## Warning
 
-Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) this is the best i could do,LockBit is written in a Native Language (C) it is **DEFINITELY** faster Than LockByt
+Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) this is the best i could do,LockBit is written in a Native Language (C) it is **DEFINITELY** faster Than LockByt.
 
 ## Features
 - **Algorithm Switching**
@@ -23,11 +23,37 @@ Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) 
 - **Clear Logs**
 - **Defender Killer** (only for Windows Defender, Requires Administrator privileges)
 - **Wallpaper** (Dynamic,1:1 of LB3's Wallpaper)
-- **Encrypt Network**
-- **Encrypt Local Disks**
+- **Encrypt Network** (Network Drives, MountPoints)
+- **Encrypt Local Drives** (Fixed,Removable drives)
 - **Open Ransom Note**
 - **Melt**
 - **Mutex**
+- **IOCP Async I/O**
+- **Excluded Languages** (example: ru-RU,tr-TR,uk-UA)
+- **List** (List to process hardcoded list)
+
+## list Configuration
+
+Format: action:target
+
+Actions (comma separated, no spaces):
+
+kill:name           Kill process by name
+killtree:name       Kill process and children
+killpid:pid         Kill process by PID
+service:name        Stop Windows service
+disableservice:name Disable Windows service
+deleteservice:name  Delete Windows service
+uninstall:name      Uninstall application
+delete:path         Delete file
+rmdir:path          Delete directory
+regdelete:key       Delete registry key
+regdelval:key:value Delete registry value
+block:domain        Block domain in hosts file
+killwdprocesses     Kill Windows Defender
+
+Example:
+kill:notepad,killtree:chrome,block:https://virustotal.com,killwdprocesses
 
 ## Security
 - Random IV Per File
