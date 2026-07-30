@@ -1,21 +1,27 @@
-MIT License
+END USER LICENSE AGREEMENT (EULA)
 
-Copyright (c) 2026 NB
+1. LICENSE GRANT
+The Developer grants you a personal, non-exclusive, non-transferable, 
+and revocable license to download, install, and use this executable software 
+solely for personal, non-commercial purposes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. RESTRICTIONS ON USE
+You strictly agree NOT to:
+- Sell, rent, lease, sublicense, distribute, or commercially exploit this software.
+- Modify, decompile, reverse engineer, or disassemble the executable.
+- Bundle this software inside any third-party installer or marketplace without 
+  express written permission from the Developer.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. OWNERSHIP
+The Developer retains all rights, title, and interest in and to the software, 
+including all copyrights, patents, and intellectual property rights. This 
+agreement does not sell the software to you; it only licenses it.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+4. TERMINATION
+This license terminates automatically if you breach any terms of this agreement. 
+Upon termination, you must destroy all copies of the software.
+
+5. NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE DEVELOPER 
+SHALL NOT BE LIABLE FOR ANY CLAIMS, DAMAGES, OR OTHER LIABILITY ARISING FROM 
+THE USE OF THIS SOFTWARE.
