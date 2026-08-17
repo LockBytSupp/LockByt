@@ -21,7 +21,7 @@ Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) 
 - **Change Icon of Encrypted Files** (LockBit 3.0 Black icon)
 - **UAC Bypass** (fodhelper,cmstp,computerdefaults)
 - **Clear Logs**
-- **Defender Killer** (only for Windows Defender, Requires Administrator privileges)
+- **Defender Killer** (only for Windows Defender, Requires Administrator privileges + patches AMSI)
 - **Wallpaper** (Dynamic,1:1 of LB3's Wallpaper)
 - **Encrypt Network** (Network Drives, MountPoints)
 - **Encrypt Local Drives** (Fixed,Removable drives)
