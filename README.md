@@ -10,7 +10,7 @@ Do **NOT** Expect this to be Fast as LockBit, Due to Limitations of .NET 4 (C#) 
 ## Features
 - **Symmetric Algorithm Switching** (XChaCha and XSalsa only)
 - **XChaCha/XSalsa with Configurable Rounds** (8/12/20)
-- **RSA with Configurable Bits and Format** (1024/2048/3072/4096, Formats: PEM,XML. when loading a public key its automatically detected)
+- **RSA with Configurable Bits and Format** (1024/2048/3072/4096, Formats: PEM,XML. Formats are Auto Detected)
 - **Backup Wipe**
 - **Built In Stealer** (StealByt, Steals 500MB of Important files,Browser Files,Application File's, Harvest-Now-Decrypt-Later)
 - **Print Ransom Note on All Printers**
@@ -69,14 +69,13 @@ kill:notepad,killtree:chrome,block:https://virustotal.com,killwdprocesses
 ## Security
 - Random IV Per File
 - RNG for Key & IV generation's
-- XChaCha/XSalsa IV 24-Bytes (192-Bits)
 
 ## Summary
 Fast And Secure,
 I can not determine the exact Encryption speed Due to it depending on the environment
-(Victim Hardware,Threads)
+(Hardware,Threads)
 
-## Victim Machine Visual
+## Machine Visual
 ![](imgs/showcase.png)
 
 ## Educational Purposes Only
